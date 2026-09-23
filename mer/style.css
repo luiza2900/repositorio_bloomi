@@ -1,0 +1,99 @@
+/* Configurações Gerais da Página */
+body {
+    background-color: rgb(101, 70, 163);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Título Principal */
+h2 {
+    color: aliceblue;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* Container do Formulário */
+form {
+    background-color: rgb(224, 237, 248);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid #e2e8f0;
+}
+
+
+/* Estilização dos Textos de Orientação (Labels) */
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 6px;
+}
+
+
+/* Customização dos Inputs e do Select */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #2d3748;
+    outline: none;
+    box-sizing: border-box; /* Garante que o padding não quebre a largura total */
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+
+/* Efeito ao clicar/focar nos campos */
+input:focus,
+select:focus {
+    border-color: #0f385f;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+
+
+/* Controlando o espaçamento das tags <p> da sua estrutura */
+p {
+    margin: 0;
+    padding-bottom: 18px; /* Cria um espaçamento uniforme entre os blocos de campos */
+}
+
+
+/* Botão de Envio */
+button[type="submit"] {
+    width: 100%;
+    background-color: #ccb8f1;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 5px;
+}
+
+
+/* Efeito de passar o mouse no botão */
+button[type="submit"]:hover {
+    background-color: #2b6cb0;
+}
